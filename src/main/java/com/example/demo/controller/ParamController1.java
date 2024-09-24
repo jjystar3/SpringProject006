@@ -13,7 +13,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @Controller
-public class ParanController1 {
+public class ParamController1 {
 	
 	@ResponseBody
 	@GetMapping("/header1")
