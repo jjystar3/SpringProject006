@@ -51,6 +51,7 @@ public class QuizController3 {
         return list;
     }
 	
+	// 메세지의 헤더를 직접 설정할 때는 ResponseEntity를 사용
 	@GetMapping("/q6")
     public ResponseEntity<String> q6() {
         return new ResponseEntity<>("response fail..", HttpStatus.INTERNAL_SERVER_ERROR);
